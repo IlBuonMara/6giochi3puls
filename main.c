@@ -1,3 +1,9 @@
+/***
+                         Main application
+ * IL programma ha 6 giochi di luce, di cui 4 già presenti nel file originale e 2 aggiunti da me
+ * i primi 3 giochi di luce vengono attivati con s1, s2 funge da reset e gli ultimi 3 giochi di luce vengono attivati da s3
+***/
+
 #include "mcc_generated_files/mcc.h"
 #define Display PORTB
 

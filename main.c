@@ -1,13 +1,7 @@
 #include "mcc_generated_files/mcc.h"
 #define Display PORTB
 
-/***
-                         Main application
-Pulsante S1 della DemoPic seleziona 3 Giochi diversi, il pulsante S2 azzera qualsiasi gioco il pulsante S3 esegue un altro gioco.
-Eseguendo questo programma si testano i 3 pulsanti ed i 3 Leds della DemoPic
-senza interrupt e timer quindi occorre premerlo piu volte per cambiare gioco
-Realizzato con plugin CodeConfigurator
-***/
+
 void PalleR();  
 void Supercar();
 void PariDispari();
